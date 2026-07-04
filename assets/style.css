@@ -1,0 +1,117 @@
+/* ===== Main Background ===== */
+
+.stApp{
+    background: linear-gradient(135deg,#EEF2FF,#F8FAFC);
+}
+
+/* ===== Main Title ===== */
+
+h1{
+    color:#4338CA;
+    font-size:45px;
+    font-weight:bold;
+}
+
+h2{
+    color:#2563EB;
+}
+
+h3{
+    color:#1E3A8A;
+}
+
+/* ===== Sidebar ===== */
+
+[data-testid="stSidebar"]{
+    background:#111827;
+}
+
+[data-testid="stSidebar"] *{
+    color:white;
+}
+
+/* ===== Metric Cards ===== */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:15px;
+
+    box-shadow:0px 5px 18px rgba(0,0,0,.12);
+
+    border-left:8px solid #4F46E5;
+
+}
+
+/* Hover Effect */
+
+[data-testid="metric-container"]:hover{
+
+    transform:translateY(-6px);
+
+    transition:.3s;
+
+}
+
+/* ===== Buttons ===== */
+
+.stButton>button{
+
+    background:#4F46E5;
+
+    color:white;
+
+    border-radius:10px;
+
+    height:50px;
+
+    width:100%;
+
+    font-size:18px;
+
+    border:none;
+
+}
+
+.stButton>button:hover{
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+/* ===== Input Boxes ===== */
+
+.stTextInput input{
+
+    border-radius:10px;
+
+}
+
+.stNumberInput input{
+
+    border-radius:10px;
+
+}
+
+/* ===== DataFrame ===== */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+/* ===== Success Message ===== */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
