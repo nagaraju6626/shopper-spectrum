@@ -3,7 +3,7 @@ pandas
 numpy
 plotly
 matplotlib
-scikit-learn
-openpyxl
+streamlit-option-menu
 mysql-connector-python
-sqlalchemy
+openpyxl
+scikit-learn
